@@ -7,10 +7,9 @@
      <link rel="stylesheet" href="style.css">
      <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
      <link href="fontawesome/css" rel="stylesheet">
+     
 
      <title>Link Tree Virais</title>
-
-     <script src="https://kit.fontawesome.com/09f63e35e7.js" crossorigin="anonymous"></script>
  </head>
  <body>
      
@@ -19,36 +18,42 @@
         <i class="fa-solid fa-xmark"></i>
         
         <i class="fa-solid fa-bars"></i>
-    </header>
+    </header> 
 
     <main>
         
         <div class="InfoUsuario">
-            <div class="FotoPerfil">img</div>
-            <h2>Jailson Paiva</h2>
-            <p>Desenvolvedor Front-End</p>
+            <div class="FotoPerfil">
+                <img src="assets/perfil01.jpg" alt="Foto de Perfil">
+            </div>
+            <div class="NomeUsuario">
+                <h2>Jailson Paiva</h2>
+                <p>Desenvolvedor Front-End</p>
+            </div>
         </div>
     
         <nav>
-            <div>
-                <a href="#">Link Repositorio GitHub</a>
-                <i class="fa-brands fa-github"></i>
-            </div>
+            <ul class="ListLink">
+                <li>
+                    <a href="#">Repositorio GitHub</a>
+                    <i class="fa-brands fa-github"></i>
+                </li>
+                
+                <li>
+                    <a href="#">Perfil do Linkedin</a>
+                    <i class="fa-brands fa-linkedin-in" style="color: #0077B5;"></i>
+                </li>
 
-            <div>
-                <a href="#">Link Perfil do Linkedin</a>
-                <i class="fa-brands fa-linkedin-in"></i>
-            </div>
-
-            <div>
-                <a href="#">Link Comunidade do Discord</a>
-                <i class="fa-brands fa-discord"></i>
-            </div>
-
-            <div>
-                <a href="#">Link do StackOverFlow</a>
-                <i class="fa-brands fa-stack-overflow"></i>
-            </div>
+                <li>
+                    <a href="#">Comunidade do Discord</a>
+                    <i class="fa-brands fa-discord" style="color: #8C9EFF;"></i>
+                </li>
+                
+                <li>
+                    <a href="#">StackOverFlow</a>
+                    <i class="fa-brands fa-stack-overflow" style="color: #FF9800;"></i>
+                </li>
+            </ul>
         </nav>
     </main>
 
@@ -58,5 +63,6 @@
         <span>&copy Atletica Virais</span>
     </footer>
 
+    <script src="https://kit.fontawesome.com/09f63e35e7.js" crossorigin="anonymous"></script>
  </body>
  </html>
